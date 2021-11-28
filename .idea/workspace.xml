@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1f0491-3cee-4b38-8764-0b46fae40289" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/02.vars/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.calc/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00.hello/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/00.hello/main.go" afterDir="false" />
     </list>
@@ -22,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="21OvfUhtSCShyFbFGzkJ4hywkhE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
