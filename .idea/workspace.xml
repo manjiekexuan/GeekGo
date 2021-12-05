@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1f0491-3cee-4b38-8764-0b46fae40289" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/005.for/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006.fateare/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/007.arr/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/04.if/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
