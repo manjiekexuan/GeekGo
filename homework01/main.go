@@ -11,7 +11,8 @@ func main() {
 	var inputStr string
 	var yesOrNo  string
 	var sexWeight int
-
+	var i int = 0
+	var allFateRate float64
 	//循环输入次数
 
 
@@ -20,6 +21,8 @@ func main() {
 		fmt.Scanln(&inputStr)
 
 		input := strings.Split(inputStr,";")
+		i++
+		fmt.Println(input)
 		//判断参数个数是否正确
 		if len(input) < 5 || len(input) > 5 {
 			fmt.Println("输入的参数个数不正确请重新输入")
@@ -47,14 +50,16 @@ func main() {
 			continue
 		}
 		BMI,FatRate,device:= getPersonReport(weight,height,age,sexWeight)
-		fmt.Println(name,BMI,FatRate,device)
+		allFateRate = allFateRate + FatRate
+		fmt.Println("姓名:",name,"BMI:",BMI,"体脂率:",FatRate,"建议:",device)
 		fmt.Println("是否继续输入是/否(Y/N)")
 		fmt.Scanln(&yesOrNo)
-		if yesOrNo == "N"{
+		if yesOrNo == "N" || yesOrNo == "n"{
 			break
 		}
 	}
 	fmt.Println("已经输入结束,报表如下")
+	fmt.Println("总人数为:",i,"平均体脂率为",allFateRate/float64(i))
 }
 
 
